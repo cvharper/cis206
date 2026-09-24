@@ -125,6 +125,7 @@ while running == 1:
             elif choice == 2:
                 print("Connection terminated.")
                 running = 0
+                valid = 1
             else:
                 print("Invalid selection, please try again.")
         except ValueError:
