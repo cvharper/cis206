@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.068" timestamp="2026-09-26T00:51:27.014036-05:00" hostname="Spring"><testcase classname="test_functions" name="test_bmi_process" file="test_functions.py" line="12" time="0.001"><failure message="assert 25.82448979591837 == 25.82&#10; +  where 25.82448979591837 = bmi_process(180, 70)">def test_bmi_process():
+&gt;       assert bmi_process(180, 70) == (25.82)
+E       assert 25.82448979591837 == 25.82
+E        +  where 25.82448979591837 = bmi_process(180, 70)
+
+test_functions.py:14: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+BMI: 25.8
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

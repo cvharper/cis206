@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="1" time="0.069" timestamp="2026-09-26T01:02:45.394093-05:00" hostname="Spring"><testcase classname="test_functions" name="test_bmi_process" file="test_functions.py" line="12" time="0.001"><failure message="NameError: name 'approx' is not defined">def test_bmi_process():
+&gt;       assert bmi_process(130, 66) == approx(21)
+                                       ^^^^^^
+E       NameError: name 'approx' is not defined
+
+test_functions.py:14: NameError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+BMI: 21.0
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>

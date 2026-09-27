@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="2" skipped="0" tests="5" time="0.074" timestamp="2026-09-26T19:54:16.920245-05:00" hostname="Spring"><testcase classname="test_functions" name="test_bmi_process" file="test_functions.py" line="11" time="0.001"><failure message="assert 20.980257116620752 == 2123123123123...21321431 ± 0.1&#10;  &#10;  comparison failed&#10;  Obtained: 20.980257116620752&#10;  Expected: 212312312312321312321312312321321431 ± 0.1">def test_bmi_process():
+&gt;       assert bmi_process(130, 66) == pytest.approx(212312312312321312321312312321321431, abs=.1)
+E       assert 20.980257116620752 == 2123123123123...21321431 ± 0.1
+E         
+E         comparison failed
+E         Obtained: 20.980257116620752
+E         Expected: 212312312312321312321312312321321431 ± 0.1
+
+test_functions.py:13: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+BMI: 21.0
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="test_functions" name="test_height_process" file="test_functions.py" line="7" time="0.000"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+Total height: 70 inches
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="test_functions" name="test_report_normal" file="test_functions.py" line="19" time="0.000"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="test_functions" name="test_report_over" file="test_functions.py" line="23" time="0.001"><failure message="AssertionError: assert 'Underweight' == 'Overweight'&#10;  &#10;  - Overweight&#10;  ? ^^&#10;  + Underweight&#10;  ? ^^^">def test_report_over():
+&gt;       assert report_process(0) == "Overweight"
+E       AssertionError: assert 'Underweight' == 'Overweight'
+E         
+E         - Overweight
+E         ? ^^
+E         + Underweight
+E         ? ^^^
+
+test_functions.py:25: AssertionError</failure><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase><testcase classname="test_functions" name="test_report_under" file="test_functions.py" line="15" time="0.000"><system-out>--------------------------------- Captured Log ---------------------------------
+
+--------------------------------- Captured Out ---------------------------------
+
+</system-out><system-err>--------------------------------- Captured Err ---------------------------------
+
+</system-err></testcase></testsuite></testsuites>
