@@ -1,0 +1,12 @@
+Session 12 - Class Diagram Assignment:
+
+
+When picking on *what* to make, I honestly had choice paralysis for a long while. There are so many applications that can be broken down to fit the requirements outlined in the assignment. I ended up going with one of the examples provided, the Banking Application. I chose this one for a few reasons, mainly because I have done something similar before, and this example was laid out with a rough outline.
+
+In terms of how this system will be created, there are a few factors to consider. The solution should include ways for customers to access accounts (either checking or savings) as well as interact with those accounts via depositing or withdrawing. To do this, multiple classes need to be created for objects to have attributes assigned to them. The obvious ones revolve around the "Person" using the program, where we can assign them information to identify them. This can be things such as "First/Last Name, SSN, Phone #, Address, etc". All of these are identifiers that would be needed to create and hold an account. The example also suggests Employees could have their own type of access, and they could also share similar Attributes assigned to them within the Person class. 
+
+On the other side we have the actual accounts. Firstly, they can inherit items from an "Account" class that contains information such as "Account Number, Account Type, Balance, etc". Since there will be Savings and Checking accounts, they will be treated separately but will still have similar attributes. The suggested type of multiple inheritance would be based off Interest generation within the Checking Account. This would make sense, as Interest would be based off the balance inside the account while InterestBearing would allow for an account to generate interest (the example suggests that Checking would be this account). 
+
+Overall, I have done something similar to this before (in C+), however this time there are more factors to consider when building this program. I am looking forward to seeing how I go about doing this!
+
+Attached should be my diagram. It is a little rough around the edges, so I hope it does not scare you. 
